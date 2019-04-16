@@ -165,6 +165,10 @@ print("Connected to ropsten!!!")
 wallet_signature   	 = 'CDD46AA3C0F33B3283CEC649C0C09BC374D90999683077373A843BA0363B162F'
 wallet_address       = '0x29246a5B71c9876E71B58f79f49D5F1454D87686'
 
+wallet_address		= input("Enter you wallet address")
+wallet_signature	= input("Enter your wallet private key (for deploying the contract)")
+
+
 acct = w3.eth.account.privateKeyToAccount(wallet_signature)
 print("Account created!!!")
 # Instantiate and deploy contract
@@ -191,6 +195,10 @@ print("Contract object created!!!\n")
 
 dbfile = open('contract_addr', 'wb')
 pickle.dump(tx_receipt.contractAddress, dbfile)
+dbfile.close()
+
+dbfile = open('wallet_signature', 'wb')
+pickle.dump(wallet_signature, dbfile)
 dbfile.close()
 
 dbfile = open('contract_abi', 'wb')
