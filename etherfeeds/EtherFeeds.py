@@ -23,7 +23,11 @@ try:
 	contract_addr=pickle.load(dbfile)
 	dbfile.close()
 except:
-	print("Change the PATH variable in EtherFeeds.py your directory")
+	print("Change the paths variable in EtherFeeds/etherfeeds/EtherFeeds.py your directory")
+	print("line 14 dbfile = open('/home/abhiavk/git/EtherFeeds/etherfeeds/contract_abi', 'rb')")
+	print("line 18dbfile = open('/home/abhiavk/git/EtherFeeds/etherfeeds/contract_abi', 'rb')")
+	print("line 22 dbfile = open('/home/abhiavk/git/EtherFeeds/etherfeeds/contract_abi', 'rb')")
+	print("\n\n change these three line with your path")
 	exit(0)
 
 w3 = Web3(HTTPProvider('https://ropsten.infura.io/v3/0d917ac7376a4526a3a9cb9306bfec30'))
