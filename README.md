@@ -1,2 +1,3 @@
-# EtherFeeds
-CS731 Blockchain Project IIT Kanpur
+# mysite
+
+Trying to create a minimal website for thesis work.

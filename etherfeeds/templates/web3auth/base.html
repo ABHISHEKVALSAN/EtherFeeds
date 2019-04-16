@@ -1,0 +1,54 @@
+{% load staticfiles i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{% block title %}Django-Web3-Auth{% endblock title %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+</head>
+
+<body>
+<div class="container">
+	<!-- /container <a class="nav-link" href="{% url 'etherfeeds:index' %}">Continue</a>-->
+  {% if messages %}
+    {% for message in messages %}
+      <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">{{ message }}</div>
+    {% endfor %}
+  {% endif %}
+
+  {% block content %}
+    <div class="row m-t-2">
+      <p>Use this document as a way to quick start any new project.</p>
+      <p>The current template is loaded from
+        <code>django-web3-auth/example/templates/base.html</code>. </p>
+      <p>Whenever you overwrite the contents of <code>django-web3-auth/web3auth/urls.py</code> with your
+        own content, you should see it here.</p>
+    </div>
+  {% endblock content %}
+
+</div>
+
+{% block modal %}{% endblock modal %}
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+{% block javascript %}
+  <!-- Latest JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <!-- Tether - a requirement for Bootstrap tooltips -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+
+  <!-- Your stuff: Third-party javascript libraries go here -->
+  <script src="{% static 'web3auth/js/web3auth.js' %}"></script>
+
+{% endblock javascript %}
+</body>
+</html>
