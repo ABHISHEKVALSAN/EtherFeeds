@@ -31,7 +31,7 @@ dj-static==0.0.6
 django>=2.1.11
 django-toolbelt==0.0.1
 django-web3-auth==0.1
-djangorestframework==3.7.7
+djangorestframework==3.9.1
 docutils==0.14
 EasyProcess==0.2.3
 entrypoints==0.3
