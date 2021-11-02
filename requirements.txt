@@ -98,7 +98,7 @@ protobuf==3.6.1
 psycopg2==2.7.6.1
 psycopg2-binary==2.7.6.1
 ptyprocess==0.6.0
-py==1.8.0
+py==1.10.0
 py-ecc==1.6.0
 py-solc==3.2.0
 py-solc-x==0.2.1
