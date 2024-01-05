@@ -104,7 +104,7 @@ py-solc==3.2.0
 py-solc-x==0.2.1
 pycodestyle==2.5.0
 pycparser==2.18
-pycryptodome==3.8.0
+pycryptodome==3.19.1
 pyethash==0.1.27
 pyflakes==2.1.1
 Pygments==2.15.0
