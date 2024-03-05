@@ -35,7 +35,7 @@ djangorestframework>=3.9.1
 docutils==0.14
 EasyProcess==0.2.3
 entrypoints==0.3
-eth-abi==4.2.0
+eth-abi==5.0.1
 eth-account==0.5.9
 eth-hash==0.2.0
 eth-keyfile==0.5.1
