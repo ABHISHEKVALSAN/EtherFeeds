@@ -57,7 +57,7 @@ grpcio==1.53.2
 gunicorn==19.9.0
 h5py==2.8.0
 hexbytes==0.1.0
-idna==2.8
+idna==3.7
 imagesize==1.1.0
 imutils==0.5.1
 ipython==8.10.0
