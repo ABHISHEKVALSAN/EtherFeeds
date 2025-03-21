@@ -67,7 +67,7 @@ jedi==0.13.2
 Jinja2>=2.10.1
 jsonschema==2.6.0
 jupyter-core==4.11.2
-Keras==2.2.2
+Keras==3.9.0
 Keras-Applications==1.0.6
 Keras-Preprocessing==1.0.5
 kiwisolver==1.0.1
