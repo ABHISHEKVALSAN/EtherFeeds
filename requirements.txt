@@ -81,7 +81,7 @@ mypy-extensions==0.4.1
 nbformat==4.4.0
 networkx==2.2
 numpy==1.22.0
-opencv-python==4.2.0.32
+opencv-python==4.8.1.78
 packaging==19.0
 pandas==0.23.4
 parsimonious==0.8.1
