@@ -11,7 +11,7 @@ blessings==1.6.1
 bpython==0.17
 bs4==0.0.1
 bumpversion==0.5.3
-certifi==2023.7.22
+certifi==2024.7.4
 cfe==0.0.15
 cffi==1.11.4
 chardet==3.0.4
